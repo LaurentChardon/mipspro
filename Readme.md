@@ -13,7 +13,7 @@ This wrapper has the following advantages over other similar wrappers that I hav
 - It works whether you have flexlm configured or not
 
 ## Installation
-Copy the file mipspro-suppress in a folder that will be in PATH before `/usr/bin/cc`. Then link this file to the compiler name that you wish tu ose. For example:
+Copy the file mipspro-suppress in a folder that will be in PATH before `/usr/bin/cc`. Then link this file to the compiler name that you wish to use. For example:
 
 ```
 mkdir -p $HOME/bin
@@ -29,7 +29,7 @@ export PATH=$HOME/bin:$PATH
  This wrapper requires bash and won't work with another shell. If you see a delay between the end of the compilation and the display of error messages, uncomment the last 3 lines of the wrapper  
 
  ## Original license
-For reference, here is the text of the original license message for the cc compiler, that is being suppressed by this wrapper. Other messages for CC, f77 etc. are similar except for the first two lines that indicate the compiler invoked.
+For reference, here is the text of the original license message for the cc compiler, suppressed by this wrapper. Other messages for CC, f77 etc. are similar except for the first two lines that indicate the compiler invoked.
 
 ```
  The MIPSpro C Compiler 
